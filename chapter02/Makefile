@@ -2,5 +2,5 @@
 
 
 %: %.sv
-	verilator --sv --binary -j 4 -Wall $@
+	verilator --sv --binary -j 4 $@
 	./obj_dir/V$@
